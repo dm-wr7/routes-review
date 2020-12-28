@@ -1,0 +1,119 @@
+@import './reset.css';
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  padding: 10px;
+  width: 100vw;
+  height: 8vh;
+  background-color: #041e42;
+  color: #ffc220;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 25px;
+}
+
+.header > h1 {
+  font-size: 2rem;
+}
+
+.display {
+  width: 100vw;
+  height: 92vh;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+.product {
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product > p {
+  margin: 5px;
+  font-weight: bold;
+}
+
+.product > button {
+  margin-top: 5px;
+}
+
+.button-hold {
+  display: flex;
+}
+
+.button-hold > p {
+  font-size: 1.5rem;
+  margin: 0 5px;
+}
+
+.product > img {
+  width: 180px;
+}
+
+.cart-container {
+  background-color: lightslategrey;
+  position: relative;
+}
+
+.cart {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.cart > h2 {
+  align-self: flex-start;
+  font-size: 3rem;
+  text-decoration: underline;
+  color: #ffc220;
+  margin-bottom: 15px;
+}
+
+.cart-item {
+  display: flex;
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+.cart-item > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.cart-item p {
+  font-size: 1.2rem;
+}
+
+.cart-item img {
+  height: 100px;
+}
+
+.total {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  border: 3px solid #ffc220;
+  padding: 10px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightslategray;
+}
